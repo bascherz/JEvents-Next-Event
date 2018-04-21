@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+	<update>
+		<name>Next Event Module</name>
+		<description>Joomla! Next Event Module - Searches your JEvents calendar for the next repeat of the selected event name and outputs the date. Date can be formatted using provided formatting codes.</description>
+		<element>mod_nextevent</element>
+		<type>module</type>
+		<version>1.1</version>
+		<client>site</client>
+		<infourl title="Next Event Module">https://github.com/bascherz/Next-Event-Module/releases/tag/1.1</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/bascherz/Next-Event-Module/mod_nextevent_1.1.zip</downloadurl>
+		</downloads>
+		<targetplatform name="joomla" version="3.[6789]" />
+	</update>
+</updates>
