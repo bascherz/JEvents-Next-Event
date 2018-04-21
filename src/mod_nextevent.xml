@@ -209,6 +209,6 @@
     <uninstall>
     </uninstall>
     <updateservers>
-        <server type="extension" name="Value Plugger Update Site">https://raw.githubusercontent.com/bascherz/Next-Event-Module/master/manifest.xml</server>
+        <server type="extension" name="JEvents Next Event Update Site">https://raw.githubusercontent.com/bascherz/JEvents-Next-Event-Module/master/manifest.xml</server>
     </updateservers>
 </extension>
