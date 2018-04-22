@@ -2,7 +2,7 @@
 <extension type="module" version="3.1.0" client="site" method="upgrade">
     <name>Next Event</name>
     <author>Bruce Scherzinger</author>
-    <version>1.1</version>
+    <version>1.2</version>
     <description>Searches JEvents calendar for the date of the next event selected and returns that date formatted as you specify. For detailed information about date formatting, please see the table below. Visit the site,
 <![CDATA[<a href="https://dev.mysql.com/doc/refman/5.7/en/date-and-time-functions.html#function_date-format" target=_blank>MySQL Date and Time Functions</a>
 <br/><br/>
@@ -178,6 +178,16 @@
                     <option value="INTERVAL -2 MONTH">2 months before</option>
                     <option value="INTERVAL -3 MONTH">3 months before</option>
                     <option value="INTERVAL -6 MONTH">6 months before</option>
+                </field>
+                <field
+                    name="adddays"
+                    description="Enter the numbef of days to add to the returned date. Leave blank to not add anything."
+                    label="Add days to result:"
+                    type="integer"
+                    first="0"
+                    last="7"
+                    step="1"
+                    default="0">
                 </field>
                 <field
                     name="inthefuture"
